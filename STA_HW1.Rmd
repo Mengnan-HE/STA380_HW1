@@ -34,6 +34,16 @@ $=0.65$
 
 $P(Y|TC)=(0.65-0.15)/0.7=0.7143$
 
+###**Part B**
+$Let A = ‘Has a disease’, B = ‘Test positive’$
+$We know: P(B|A) = 0.993$
+$P(not B|not A) = 0.9999$
+$P(A) = 0.000025$
+$P(A|B) = P(A) * P(B|A) / P(B) = P(A) * P(B|A) / (P(B|A) * P(A) + P(B|not A) * P(not A)$
+$P(B|not A) = 1 – P(not B|not A) = 1 – 0.9999 = 0.0001$
+$P(A|B) = 0.000025 * 0.993 / (0.993 * 0.000025 + 0.0001 * (1-0.000025)) = 0.1989$
+
+
 
 ##Exploratory Analysis: Green /Buildings
 
